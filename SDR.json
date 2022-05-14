@@ -1,0 +1,172 @@
+{
+  "config1": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 2,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config2": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 3,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config3": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 4,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config4": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 5,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config5": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 6,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config6": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 7,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config7": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 8,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config8": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 9,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config9": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 10,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config10": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 11,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config11": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 12,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config12": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 13,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config13": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 14,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config14": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 15,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config15": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 16,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config16": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 20,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config17": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 30,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  }
+}

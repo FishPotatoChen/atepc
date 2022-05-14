@@ -1,0 +1,428 @@
+log file: logs/220512-184412_APC_train_SDR.log
+begin time: 220512-184412
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 2
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 1 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 96.26	max_apc_test_acc: 96.96
+No.2 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.3 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.4 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.5 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 3
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 2 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 94.33	max_apc_test_acc: 95.22
+No.2 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+No.3 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+No.4 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+No.5 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 4
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 3 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 96.78	max_apc_test_acc: 97.39
+No.2 training process of 5
+max_apc_test_f1: 96.78	max_apc_test_acc: 97.39
+No.3 training process of 5
+max_apc_test_f1: 96.78	max_apc_test_acc: 97.39
+No.4 training process of 5
+max_apc_test_f1: 96.78	max_apc_test_acc: 97.39
+No.5 training process of 5
+max_apc_test_f1: 96.78	max_apc_test_acc: 97.39
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 4 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 95.71	max_apc_test_acc: 96.52
+No.2 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+No.3 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+No.4 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+No.5 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 6
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 5 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 95.75	max_apc_test_acc: 96.52
+No.2 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.3 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.4 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.5 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 7
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 6 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 95.28	max_apc_test_acc: 96.09
+No.2 training process of 5
+max_apc_test_f1: 95.28	max_apc_test_acc: 96.09
+No.3 training process of 5
+max_apc_test_f1: 95.28	max_apc_test_acc: 96.09
+No.4 training process of 5
+max_apc_test_f1: 95.28	max_apc_test_acc: 96.09
+No.5 training process of 5
+max_apc_test_f1: 95.28	max_apc_test_acc: 96.09
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 8
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 7 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 95.79	max_apc_test_acc: 96.52
+No.2 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+No.3 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+No.4 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+No.5 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 9
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 8 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 95.11	max_apc_test_acc: 96.09
+No.2 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+No.3 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+No.4 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+No.5 training process of 5
+max_apc_test_f1: 96.23	max_apc_test_acc: 96.96
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 10
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 9 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.2 training process of 5
+max_apc_test_f1: 97.33	max_apc_test_acc: 97.83
+No.3 training process of 5
+max_apc_test_f1: 97.33	max_apc_test_acc: 97.83
+No.4 training process of 5
+max_apc_test_f1: 97.33	max_apc_test_acc: 97.83
+No.5 training process of 5
+max_apc_test_f1: 97.33	max_apc_test_acc: 97.83
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 11
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 10 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 97.36	max_apc_test_acc: 97.83
+No.2 training process of 5
+max_apc_test_f1: 97.36	max_apc_test_acc: 97.83
+No.3 training process of 5
+max_apc_test_f1: 97.36	max_apc_test_acc: 97.83
+No.4 training process of 5
+max_apc_test_f1: 97.36	max_apc_test_acc: 97.83
+No.5 training process of 5
+max_apc_test_f1: 97.36	max_apc_test_acc: 97.83
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 12
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 11 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 96.26	max_apc_test_acc: 96.96
+No.2 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+No.3 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+No.4 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+No.5 training process of 5
+max_apc_test_f1: 96.33	max_apc_test_acc: 96.96
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 13
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 12 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 95.11	max_apc_test_acc: 96.09
+No.2 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+No.3 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+No.4 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+No.5 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 14
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 13 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.2 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.3 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.4 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+No.5 training process of 5
+max_apc_test_f1: 96.81	max_apc_test_acc: 97.39
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 15
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 14 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 96.26	max_apc_test_acc: 96.96
+No.2 training process of 5
+max_apc_test_f1: 96.26	max_apc_test_acc: 96.96
+No.3 training process of 5
+max_apc_test_f1: 96.26	max_apc_test_acc: 96.96
+No.4 training process of 5
+max_apc_test_f1: 96.26	max_apc_test_acc: 96.96
+No.5 training process of 5
+max_apc_test_f1: 96.26	max_apc_test_acc: 96.96
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 16
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 15 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 94.59	max_apc_test_acc: 95.65
+No.2 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+No.3 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+No.4 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+No.5 training process of 5
+max_apc_test_f1: 95.67	max_apc_test_acc: 96.52
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 20
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 16 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 94.53	max_apc_test_acc: 95.65
+No.2 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+No.3 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+No.4 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+No.5 training process of 5
+max_apc_test_f1: 96.75	max_apc_test_acc: 97.39
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 30
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 17 (totally 17 configs)
+No.1 training process of 5
+max_apc_test_f1: 95.75	max_apc_test_acc: 96.52
+No.2 training process of 5
+max_apc_test_f1: 95.79	max_apc_test_acc: 96.52
+No.3 training process of 5
+max_apc_test_f1: 95.79	max_apc_test_acc: 96.52
+No.4 training process of 5
+max_apc_test_f1: 95.79	max_apc_test_acc: 96.52
+No.5 training process of 5
+max_apc_test_f1: 95.79	max_apc_test_acc: 96.52
+end time: 220512-223751

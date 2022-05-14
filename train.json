@@ -1,0 +1,42 @@
+{
+  "config1": {
+    "dataset": "car",
+    "output_dir": "output",
+    "SRD": 5,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config2": {
+    "dataset": "phone",
+    "output_dir": "output",
+    "SRD": 5,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config3": {
+    "dataset": "camera",
+    "output_dir": "output",
+    "SRD": 5,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  },
+  "config4": {
+    "dataset": "notebook",
+    "output_dir": "output",
+    "SRD": 5,
+    "learning_rate": 3e-5,
+    "dropout": 0,
+    "num_train_epochs": 5,
+    "train_batch_size": 16,
+    "max_seq_length": 80
+  }
+}

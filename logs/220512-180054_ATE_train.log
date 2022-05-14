@@ -1,0 +1,103 @@
+log file: logs/220512-180054_ATE_train.log
+begin time: 220512-180054
+>>> dataset: car
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/car
+--------------------------------------------------------------------------------
+Config 1 (totally 4 configs)
+No.1 training process of 5
+max_ate_test_f1: 82.28
+No.2 training process of 5
+max_ate_test_f1: 82.28
+No.3 training process of 5
+max_ate_test_f1: 82.28
+No.4 training process of 5
+max_ate_test_f1: 82.28
+No.5 training process of 5
+max_ate_test_f1: 83.44
+>>> dataset: phone
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/phone
+--------------------------------------------------------------------------------
+Config 2 (totally 4 configs)
+No.1 training process of 5
+max_ate_test_f1: 81.37
+No.2 training process of 5
+max_ate_test_f1: 81.37
+No.3 training process of 5
+max_ate_test_f1: 82.13
+No.4 training process of 5
+max_ate_test_f1: 82.13
+No.5 training process of 5
+max_ate_test_f1: 82.13
+>>> dataset: camera
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/camera
+--------------------------------------------------------------------------------
+Config 3 (totally 4 configs)
+No.1 training process of 5
+max_ate_test_f1: 77.27
+No.2 training process of 5
+max_ate_test_f1: 80.13
+No.3 training process of 5
+max_ate_test_f1: 80.13
+No.4 training process of 5
+max_ate_test_f1: 80.13
+No.5 training process of 5
+max_ate_test_f1: 80.32
+>>> dataset: notebook
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> device: cuda:0
+>>> data_dir: atepc_datasets/notebook
+--------------------------------------------------------------------------------
+Config 4 (totally 4 configs)
+No.1 training process of 5
+max_ate_test_f1: 78.16
+No.2 training process of 5
+max_ate_test_f1: 81.1
+No.3 training process of 5
+max_ate_test_f1: 81.1
+No.4 training process of 5
+max_ate_test_f1: 81.1
+No.5 training process of 5
+max_ate_test_f1: 81.1
+end time: 220512-184410
