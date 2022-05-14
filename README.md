@@ -1,37 +1,20 @@
 # ATEPC
 
-#### 介绍
-毕业设计，方面级情感分析模型
-
-#### 软件架构
-软件架构说明
+## 介绍
+毕业设计，方面级情感分析模型。
 
 
-#### 安装教程
+## 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+分别运行`APC_train.py`和`ATE_train.py`便可训练两个模型。
 
-#### 使用说明
+在运行上面两个文件后，会在`.\logs`文件夹中看到训练结果。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+将评论按行写入`comment.txt`文件，运行`run.py`，便可得到评论的方面词提取结果与情感极性分类结果。
 
-#### 参与贡献
+## 使用说明
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+运行`APC_train_SDR.py`可以看到语义相对距离对模型的影响，结果在`.\logs`文件夹中。
 
+修改`json`文件可以更改模型参数。
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
