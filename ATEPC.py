@@ -10,7 +10,7 @@ if __name__ == "__main__":
     main = ATEPC(device, "./output/trainedATE.pt", "./output/trainedAPC.pt")
     with open("comment.txt", encoding='utf-8') as f:
         for s in f.readlines():
-            string = ''.join(s.strip().split())
+            string = ''.join(s.strip().split())  # 字符串去空格后合并
             print('-'*80)
             print(string)
             try:
@@ -20,4 +20,3 @@ if __name__ == "__main__":
                 continue
             for i, j in zip(x, y):
                 print(i, j)
-

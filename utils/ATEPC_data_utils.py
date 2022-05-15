@@ -150,10 +150,12 @@ class INPUTProcessor(DataProcessor):
                     aspect_label.append(temp_tag)
                     temp_tag = []
                     flag = True
+        # 将方面词放入一个列表
         if temp_asp != []:
             aspect.append(temp_asp)
             aspect_label.append(temp_tag)
         examples = []
+        # 无方面词错误
         if aspect == []:
             raise NoAspectError()
         all_aspect = []
@@ -168,6 +170,7 @@ class INPUTProcessor(DataProcessor):
                     temp_i -= 1
                 else:
                     temp_sentence_label.append('O')
+            # 屏蔽多余方面词
             temp_sentence_label.extend(
                 ['O']*(len(sentence_label)-len(temp_sentence_label)))
             assert len(temp_sentence_label) == len(sentence_label)

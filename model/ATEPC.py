@@ -1,4 +1,3 @@
-from itertools import count
 import torch
 import torch.nn.functional as F
 
@@ -25,6 +24,7 @@ class ATEPC():
         all_aspect = []
         string_list = []
         sentence_lenght = 60
+        # 切分长句，将句子变为长度为60
         n = int((len(string))/sentence_lenght)
         for i in range(n):
             string_list.append(

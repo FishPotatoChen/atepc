@@ -2,7 +2,6 @@ from transformers.models.bert.modeling_bert import BertForTokenClassification, B
 import torch
 import torch.nn as nn
 from torch.nn import Linear, CrossEntropyLoss, Tanh, Dropout
-import copy
 import numpy as np
 
 
