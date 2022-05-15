@@ -1,0 +1,4 @@
+logs/
+output/
+/model/__pycache__
+/utils/__pycache__
