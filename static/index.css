@@ -1,0 +1,42 @@
+.div1 {
+    text-align: center;
+    color: rgb(106, 90, 205);
+    position: relative;
+    font-size: 24px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: rgb(106, 90, 205);
+    font-size: 38px;
+}
+
+.form-control {
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(84, 72, 160);
+    border-radius: 100px;
+}
+
+.form-control:hover {
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 125, 121);
+    border-radius: 100px;
+}
+
+.text-control {
+    height: 600px;
+    width: 1600px;
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}

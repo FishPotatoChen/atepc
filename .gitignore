@@ -1,4 +1,15 @@
 logs/
 output/
-/model/__pycache__
-/utils/__pycache__
+*/__pycache__
+
+venv/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
