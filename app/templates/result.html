@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block container %}
+<div class="div2">
+    {% for i in output %}
+    <p>
+        {{i}}
+    </p>
+    {% endfor %}
+    <div class="div1">
+        <a href="{{ url_for('index') }}">
+            {{ form.submit }}
+        </a>
+    </div>
+</div>
+{% endblock %}

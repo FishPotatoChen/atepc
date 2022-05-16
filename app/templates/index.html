@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block container %}
+<div class="div1">
+    <form method="post">
+        <div>
+            <b>
+                {{ form.text1.label }}
+            </b>
+        </div>
+        <div>
+            <b>
+                {{ form.text2.label }}
+            </b>
+        </div>
+        <hr />
+        <div>
+            {{ form.string }}
+        </div>
+        <hr />
+        <div>
+            {{ form.submit1 }}
+            {{ form.submit2 }}
+        </div>
+    </form>
+</div>
+{% endblock %}

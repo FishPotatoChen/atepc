@@ -5,6 +5,13 @@
     font-size: 24px;
 }
 
+.div2 {
+    text-align: left;
+    color: rgb(84, 72, 160);
+    position: relative;
+    font-size: 20px;
+}
+
 h1 {
     position: relative;
     text-align: center;
@@ -33,7 +40,7 @@ h1 {
 }
 
 .text-control {
-    height: 600px;
+    height: 400px;
     width: 1600px;
     font-size: 24px;
     font-weight: 900;
