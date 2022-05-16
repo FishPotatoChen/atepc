@@ -7,7 +7,7 @@
 
 .div2 {
     text-align: left;
-    color: rgb(84, 72, 160);
+    color: rgb(0, 0, 0);
     position: relative;
     font-size: 20px;
 }
@@ -25,7 +25,7 @@ h1 {
     height: 50px;
     text-align: center;
     color: white;
-    background-color: rgb(84, 72, 160);
+    background-color: rgb(106, 90, 205);
     border-radius: 100px;
 }
 
