@@ -3,7 +3,6 @@ import torch
 import torch.nn as nn
 from torch.nn import Linear, CrossEntropyLoss, Tanh, Dropout
 import numpy as np
-from copy import deepcopy
 
 
 class SelfAttention(nn.Module):
@@ -28,7 +27,7 @@ class APC(BertForTokenClassification):
         self.bert_for_global_context = bert_base_model
         self.args = args
         # do not init lcf layer if BERT-SPC or BERT-BASE specified
-        self.bert_for_local_context = deepcopy(self.bert_for_global_context)
+        self.bert_for_local_context = self.bert_for_global_context
 
         self.pooler = BertPooler(config)
         # 768->2或者768->3,因为有的数据是分为正面、负面和中性三种,有的是正面和负面两种
