@@ -39,8 +39,7 @@ class Main():
         # 迭代过程中的训练
         self.config['train_batch_size'] = self.config['train_batch_size'] // self.config['gradient_accumulation_steps']
         # 创建输出位置
-        if not os.path.exists(self.config['output_dir']):
-            os.makedirs(self.config['output_dir'])
+        os.makedirs(self.config['output_dir'], exist_ok=True)
         self.processor = APCProcessor()  # 处理数据，将数据变为输入所需的形式
         self.label_list = ["O", "B-ASP", "I-ASP", "[CLS]", "[SEP]"]
         self.num_labels = len(self.label_list) + 1
